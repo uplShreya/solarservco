@@ -66,8 +66,28 @@
       },
       "type": "dynamiczone",
       "components": [
-        "sections.hero"
+        "sections.hero",
+        "sections.testimonials-group",
+        "sections.pricing",
+        "sections.service-detail-group",
+        "sections.project-group"
       ]
+    },
+    "serviceHeading": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "serviceDescription": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

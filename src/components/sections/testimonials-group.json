@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sections_testimonials_groups",
+  "info": {
+    "displayName": "Testimonials group"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.testimonials-group"
+    }
+  }
+}

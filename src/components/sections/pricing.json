@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_pricings",
+  "info": {
+    "displayName": "Service group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "service": {
+      "displayName": "service",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.service"
+    }
+  }
+}

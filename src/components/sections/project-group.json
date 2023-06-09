@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_project_groups",
+  "info": {
+    "displayName": "Project group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "project": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.project"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
+    }
+  }
+}

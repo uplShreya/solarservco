@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_sections_service_detail_groups",
+  "info": {
+    "displayName": "service detail group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "servicedetail": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.servicedetail"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

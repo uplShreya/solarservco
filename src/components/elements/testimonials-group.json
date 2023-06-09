@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_elements_testimonials_groups",
+  "info": {
+    "displayName": "Testimonial",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "authorName": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "designation": {
+      "type": "string"
+    }
+  }
+}
